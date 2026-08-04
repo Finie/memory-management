@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "MemoryManagement",
-            dependencies: []
+            dependencies: [],
+            path: "Sources"
         ),
         .testTarget(
             name: "MemoryManagementTests",
